@@ -32,6 +32,8 @@ Las bibliotecas necesarias son las clásicas usadas en muchos otros proyectos de
 - OpenCV
 - Numpy
 
+Los tres programas siguientes están totalmente contenidos en un único archivo, se pueden mover sin que se rompan.
+
 # detectQR.py
 
 Este programa localiza los vértices del código QR y los muestra en pantalla, delineando el contorno y numerando los 4 vértices de 0 a 3.
