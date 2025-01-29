@@ -6,6 +6,10 @@ Este repositorio contiene código que ilustra cómo obtener la pose 3D (posició
 
 Luego de una introducción a marcadores visuales, se describen los tres programas Python de este repositorio.
 
+En **[realidad aumentada](./ar.md)** se describe el uso del código que determina la pose de un código QR, para implementar realidad aumentada, superponiendo un modelo 3D al código QR.
+
+Conviene visitarlo luego de haber completado esta página.
+
 # Marcadores visuales QR ARUCO
 Los códigos QR son marcadores visuales que codifican un texto.  Los algoritmos primero detectan la posición del código en la imagen y luego decodifican su contenido.
 

@@ -12,3 +12,6 @@ Requiere cámara calibrada para mayor precisión.
 
 ## poseARUCO.py
 Ídem, pero para marcadores ARUCO.
+
+## ARQR.py
+Realidad aumentada con código QR.
