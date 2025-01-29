@@ -37,7 +37,9 @@ Las bibliotecas necesarias son las clásicas usadas en muchos otros proyectos de
 Este programa localiza los vértices del código QR y los muestra en pantalla, delineando el contorno y numerando los 4 vértices de 0 a 3.
 <img src="./images/detectQR.png">
 
-La cámara debe observar un código QR, que puede estar impreso en un papel, pero lo más práctico a la hora de testear el software y presentar el código en una pantalla, por ejemplo en la pantalla del celular.  Se puede mostrar el código QR que está más arriba.
+Para terminar pulsar ESC haciendo foco en la ventana del detector.  Es un error común pulsar ESC en la ventana de la IDE.
+
+La cámara debe observar un código QR, que puede estar impreso en un papel, pero lo más práctico a la hora de testear el software y presentar el código en una pantalla, por ejemplo en la pantalla del celular.  Se puede mostrar el código QR que está más arriba.  La carpeta docs/images contiene dos códigos QR por conveniencia, que fácilmente se pueden mostrar en pantalla.
 
 Con este programa se pueden testear condiciones extremas de detección, como una observación parcial, un QR curvado o rugoso, o condiciones de mala iluminación.
 
@@ -83,6 +85,8 @@ El código determina la pose con la función `cv.solvePnP()`, y la expresa de do
   - calculada a partir de tvec y rvec
   - convierte puntos en el sistema de coordenadas del marcador al sistema de coordenadas de la cámara
 
+El algoritmo requiere cámara calibrada: coeficientes de distorsión y matriz intrínseca.
+Por conveniencia, para poder ejecutar la demo sin calibrar, los coeficientes vienen en cero y se compone una matriz intrínseca aproximada para una cámara común.
 
 # poseARUCO.py
 

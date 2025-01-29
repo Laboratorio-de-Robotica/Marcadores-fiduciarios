@@ -1,0 +1,3 @@
+title: "Pose de marcadores fiduciarios"
+description: "Algoritmos que ilustran la detección de marcadores fiduciarios ARUCO y QR, el cómputo de su pose 3D y la posibilidad de realidad aumentada."
+theme: jekyll-theme-minimal
