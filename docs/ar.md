@@ -21,7 +21,11 @@ Las bibliotecas necesarias son las clásicas y otras dos específicas de este pr
 - Pyrender
 - Trimesh
 
-Disponibles con PIP y también de otras maneras.
+Disponibles con PIP:
+
+    pip install numpy opencv-contrib-python pyrender trimesh
+
+
 
 # render test.py
 Esta pequeña demo genera un "render" del modelo 3D desde el punto de vista de una cámara virtual.  La pose de la cámara se determina con una matriz de 4x4, que se puede cambiar para probar otros ángulos.  Por conveniencia se proporcionan 4 poses de cámara que elegir editando código.

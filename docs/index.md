@@ -6,9 +6,9 @@ Este repositorio contiene código que ilustra cómo obtener la pose 3D (posició
 
 Luego de una introducción a marcadores visuales, se describen los tres programas Python de este repositorio.
 
-En **[realidad aumentada](./ar.md)** se describe el uso del código que determina la pose de un código QR, para implementar realidad aumentada, superponiendo un modelo 3D al código QR.
+El documento [Sistema de visión artificial para taller de Álgebra](https://docs.google.com/document/d/1H9JPeI5YSvK_-AgQpwC-dRBQZGnRG82ntYrplfbunQ8/edit?tab=t.0) describe la composición y uso de una matriz de rototralación de 4x4 para expresar las poses en 3D.
 
-Conviene visitarlo luego de haber completado esta página.
+Al terminar esta página conviene seguir con **[realidad aumentada](./ar.md)** que describe el uso de este código que determina la pose de un código QR, para implementar realidad aumentada, superponiendo un modelo 3D.
 
 # Marcadores visuales QR ARUCO
 Los códigos QR son marcadores visuales que codifican un texto.  Los algoritmos primero detectan la posición del código en la imagen y luego decodifican su contenido.
@@ -35,6 +35,10 @@ Las bibliotecas necesarias son las clásicas usadas en muchos otros proyectos de
 
 - OpenCV
 - Numpy
+
+Se pueden instalar con pip:
+
+    pip install numpy opencv-contrib-python
 
 Los tres programas siguientes están totalmente contenidos en un único archivo, se pueden mover sin que se rompan.
 
