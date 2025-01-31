@@ -102,6 +102,8 @@ Por conveniencia, para poder ejecutar la demo sin calibrar, los coeficientes vie
 
 Hace lo mismo que poseQR.py, pero con marcadores ARUCO.
 
+[En este video](https://drive.google.com/file/d/1m3P5Bqe_TIiv7NxCw4hy-tt40ApnPkf1/view?usp=drive_link) se puede apreciar el funcionamiento de `poseARUCO.py`.
+
 El código usa el diccionario ARUCO predefinido, `cv::aruco::DICT_4X4_50`, el más simple que existe, con 50 marcadores con bloques de 4x4:
 
 <img src="./images/Aruco 4x4, 50 marcadores.avif">
